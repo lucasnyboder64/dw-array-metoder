@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 7a "+ fruitsArray.indexOf("Mango"));
     console.log("Opgave 7b "+ fruitsArray.indexOf("Blåbær"));
 
-    
+    // Opgave 8
+    dogsArray.splice(dogsArray.indexOf("Polly"),1);
+    console.log(dogsArray);
 
 }) // ends DOMContentLoaded
