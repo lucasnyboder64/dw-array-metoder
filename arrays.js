@@ -35,4 +35,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let newNumberArray = numbersArray.map((x) => x*3);
     console.log(newNumberArray);
 
+    // Opgave 6
+    let dogString = "";
+    dogsArray.forEach((dog)=>{
+        dogString+=dog;
+    });
+
+    console.log(dogString);
+
+    
+
 }) // ends DOMContentLoaded
