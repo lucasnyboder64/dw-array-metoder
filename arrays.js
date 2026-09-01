@@ -5,5 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 
     // --- Løs opgaverne herunder --- 
+    
+    // Opgave 1
+    let newNumbers = numbersArray.filter((num) => num>20);
+                    //words.filter((word) => word.length > 6);
+    console.log(newNumbers);
 
 }) // ends DOMContentLoaded
