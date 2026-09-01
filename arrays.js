@@ -31,5 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log(undefined);
     }
 
+    // Opgave 5
+    let newNumberArray = numbersArray.map((x) => x*3);
+    console.log(newNumberArray);
 
 }) // ends DOMContentLoaded
