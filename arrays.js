@@ -8,10 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Opgave 1
     let newNumbers = numbersArray.filter((num) => num>20);
+                    //words.filter((word) => word.length > 6);
     console.log(newNumbers);
 
-    // Opgave 2
 
-    catsArray.push("Sniffles");
-    console.log("Opgave 2 " + catsArray);
 }) // ends DOMContentLoaded
