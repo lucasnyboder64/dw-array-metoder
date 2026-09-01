@@ -40,8 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
     dogsArray.forEach((dog)=>{
         dogString+=dog;
     });
-
     console.log(dogString);
+
+    // Opgave 7
+    console.log("Opgave 7a "+ fruitsArray.indexOf("Mango"));
+    console.log("Opgave 7b "+ fruitsArray.indexOf("Blåbær"));
 
     
 
